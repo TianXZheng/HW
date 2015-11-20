@@ -13,6 +13,7 @@ package pkg15fcs5343.pkg002_homework05_kruskal_txz141530_tianzheng;
 public class MyGraph {
     final int NUMBEROFVERTICES;
     final int NUMBEROFEDGES;
+    
     public MyGraph(){
         NUMBEROFVERTICES = 10;
         NUMBEROFEDGES = 20;
@@ -25,8 +26,15 @@ public class MyGraph {
     public int getNumberOfEdges(){
         return edges.length;
     }
-    public void setNameOfVertices(){
-        
+    public void setVertices(){
+        for(Vertex item : vertices){
+            
+        }
+    }
+    public void setEdges(){
+        for(WeightedUndirectedEdge item : edges){
+            
+        }
     }
     
     private final Vertex[] vertices;

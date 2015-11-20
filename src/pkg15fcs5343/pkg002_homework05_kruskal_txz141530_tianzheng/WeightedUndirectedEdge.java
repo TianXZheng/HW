@@ -11,12 +11,12 @@ package pkg15fcs5343.pkg002_homework05_kruskal_txz141530_tianzheng;
  * @author txz141530
  */
 public class WeightedUndirectedEdge {
-    public WeightedUndirectedEdge(Vertex vA, Vertex vB, int wght){
+    public void setup(Vertex vA, Vertex vB, int wght){
         vertexA = vA;
         vertexB = vB;
         weight = wght;
     }
-    private final Vertex vertexA;
-    private final Vertex vertexB;
+    private Vertex vertexA;
+    private Vertex vertexB;
     int weight;
 }
