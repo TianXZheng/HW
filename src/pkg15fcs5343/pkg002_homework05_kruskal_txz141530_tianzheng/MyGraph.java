@@ -10,25 +10,25 @@ package pkg15fcs5343.pkg002_homework05_kruskal_txz141530_tianzheng;
  *
  * @author txz141530
  */
-public class MyGraphWith10VerticesAnd20Edges {
-    final int NUMBEROFEDGES = 20;
-    final int NUMBEROFVERTICES = 10;
-    
-    public MyGraphWith10VerticesAnd20Edges(){
+public class MyGraph {
+    final int NUMBEROFVERTICES;
+    final int NUMBEROFEDGES;
+    public MyGraph(){
+        NUMBEROFVERTICES = 10;
+        NUMBEROFEDGES = 20;
         vertices = new Vertex[NUMBEROFVERTICES];
         edges = new WeightedUndirectedEdge[NUMBEROFEDGES];
     }
     public int getNumberOfVertices(){
-        return NUMBEROFVERTICES;
+        return vertices.length;
     }
     public int getNumberOfEdges(){
-        return NUMBEROFEDGES;
+        return edges.length;
     }
     public void setNameOfVertices(){
         
     }
     
-
     private final Vertex[] vertices;
     private final WeightedUndirectedEdge[] edges;
 }
