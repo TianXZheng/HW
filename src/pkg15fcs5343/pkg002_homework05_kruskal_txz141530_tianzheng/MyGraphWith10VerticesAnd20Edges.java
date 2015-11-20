@@ -12,11 +12,11 @@ package pkg15fcs5343.pkg002_homework05_kruskal_txz141530_tianzheng;
  */
 public class MyGraphWith10VerticesAnd20Edges {
     public MyGraphWith10VerticesAnd20Edges(){
-        vertices = new FlagedVertex[NUMBEROFVERTICES];
+        vertices = new char[NUMBEROFVERTICES];
         edges = new WeightedUndirectedEdge[NUMBEROFEDGES];
     }
     final int NUMBEROFEDGES = 20;
     final int NUMBEROFVERTICES = 10;
-    private final FlagedVertex[] vertices = {new FlagedVertex('A'),};
+    private final char[] vertices;
     private final WeightedUndirectedEdge[] edges;
 }
