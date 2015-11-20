@@ -10,6 +10,11 @@ package pkg15fcs5343.pkg002_homework05_kruskal_txz141530_tianzheng;
  * @author txz141530
  */
 public class Vertex {
-    public Vertex(){}
+    public char getName(){
+        return name;
+}
+    public void setName(char n){
+        name = n;
+    }
     private char name;
 }
