@@ -13,6 +13,13 @@ public class Vertex {
     public char getName(){
         return name;
 }
+    /**
+     * Is it a good practice that I make this setter method return type "void"?
+     * Maybe I should use return type "int" instead to indicate the setting 
+     * successful or not.
+     * T.B.D
+     * @param n the character the user would like to use as the name of the vertex
+     */
     public void setName(char n){
         name = n;
     }
