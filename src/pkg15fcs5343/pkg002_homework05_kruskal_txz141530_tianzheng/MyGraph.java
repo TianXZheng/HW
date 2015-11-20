@@ -11,18 +11,6 @@ package pkg15fcs5343.pkg002_homework05_kruskal_txz141530_tianzheng;
  * @author txz141530
  */
 public class MyGraph {
-    final int NUMBEROFVERTICES;
-    final int NUMBEROFEDGES;
-    
-    public MyGraph(){
-        NUMBEROFVERTICES = 10;
-        NUMBEROFEDGES = 20;
-        vertices = new Vertex[NUMBEROFVERTICES];
-        edges = new WeightedUndirectedEdge[NUMBEROFEDGES];
-    }
-    public int getNumberOfVertices(){
-        return vertices.length;
-    }
     public int getNumberOfEdges(){
         return edges.length;
     }
@@ -37,6 +25,6 @@ public class MyGraph {
         }
     }
     
-    private final Vertex[] vertices;
-    private final WeightedUndirectedEdge[] edges;
+    private Vertex[] vertices;
+    private WeightedUndirectedEdge[] edges;
 }
