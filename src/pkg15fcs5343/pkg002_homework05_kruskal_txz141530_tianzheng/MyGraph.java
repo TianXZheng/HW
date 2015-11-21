@@ -17,6 +17,9 @@ public class MyGraph {
         vertices = new Vertex[numberOfVertices];
         edges = new WeightedUndirectedEdge[numberOfEdges];
     }
+    public int getNumberOfVertices(){
+        return vertices.length;
+    }
     public int getNumberOfEdges(){
         return edges.length;
     }
