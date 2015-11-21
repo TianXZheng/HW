@@ -31,6 +31,7 @@ public class MyGraph {
         Scanner inEdgesNames = new Scanner(System.in);
         System.out.println("Please input 20 edges by their two endpoints' indices and weight, intotal 3 integers\n");
         for(WeightedUndirectedEdge item : edges){
+            item.setup(vertices[inEdgesNames.nextInt()], vertices[inEdgesNames.nextInt()], inEdgesNames.nextInt());
         }
     }
     
