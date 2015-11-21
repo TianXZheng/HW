@@ -10,9 +10,9 @@ package pkg15fcs5343.pkg002_homework05_kruskal_txz141530_tianzheng;
  * @author txz141530
  */
 public class Vertex {
-    public char getName(){
+    public String getName(){
         return name;
-}
+    }
     /**
      * Is it a good practice that I make this setter method return type "void"?
      * Maybe I should use return type "int" instead to indicate the setting 
@@ -20,8 +20,8 @@ public class Vertex {
      * T.B.D
      * @param n the character the user would like to use as the name of the vertex
      */
-    public void setName(char n){
+    public void setName(String n){
         name = n;
     }
-    private char name;
+    private String name;
 }

@@ -16,6 +16,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        MyGraph graphOf10VerticesAnd20Edges = new MyGraph(10,20);
     }
     
 }
